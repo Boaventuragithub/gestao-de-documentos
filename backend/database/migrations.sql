@@ -1,0 +1,1 @@
+-- Script para criar tabelas no SQLite 

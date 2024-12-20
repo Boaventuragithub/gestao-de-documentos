@@ -1,0 +1,37 @@
+{
+    "name": "gestao-de-documentos",
+    "version": "1.0.0",
+    "description": "Sistema de gestão de documentos para localizar fisicamente e organizar arquivos de forma eficiente.",
+    "main": "main.js",
+    "author": "Boaventura Belizário Machado",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . gestao-de-documentos --platform=win32 --arch=x64 --icon=assets/icon.ico"
+    },
+    "build": {
+      "appId": "com.seunome.gestao-de-documentos"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "sqlite3": "^5.1.6",
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "electron": "^26.2.0",
+      "electron-packager": "^17.1.2"
+    },
+    "keywords": [
+      "gestao",
+      "documentos",
+      "electron",
+      "nodejs",
+      "sqlite"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Boaventuragithub/gestao-de-documentos.git"
+    }
+  }
+

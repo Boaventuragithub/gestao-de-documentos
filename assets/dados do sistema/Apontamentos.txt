@@ -1,0 +1,5 @@
+TECNÓLOGIAS USADAS:
+-Podemos usar um script em Batch para criar a estrutura diretamente no Windows CMD. Abaixo está o comando que você pode salvar em um arquivo .bat e executar para criar toda a estrutura do projeto.
+**********************************************************************************************************
+A biblioteca CORS (Cross-Origin Resource Sharing) é usada para lidar com restrições de segurança no navegador relacionadas a solicitações HTTP entre origens diferentes. 
+**********************************************************************************************************
